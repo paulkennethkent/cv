@@ -1,0 +1,49 @@
+---
+import data, { TimelineEvent } from "../data";
+
+const timeline = data
+  .filter((job) => !job.notRelevant)
+  .map((job) => ({
+    ...job,
+    timelineStart: job.timelineStart.toLocaleDateString(undefined, {
+      month: "long",
+      year: "numeric",
+    }),
+    timelineEnd: job.timelineEnd.toLocaleDateString(undefined, {
+      month: "long",
+      year: "numeric",
+    }),
+  }));
+---
+
+<div>
+  <h3>Experience</h3>
+  {
+    timeline
+      .filter((t) => t.type === TimelineEvent.JOB)
+      .map((exp) => (
+        <div>
+          <h2>
+            {exp.title} | {exp.place} | {exp.timelineStart} - {exp.timelineEnd}
+          </h2>
+          <p>{exp.description}</p>
+        </div>
+      ))
+  }
+</div>
+
+<div>
+  <h3>Education</h3>
+  {
+    timeline
+      .filter((t) => t.type === TimelineEvent.QUALIFICATION)
+      .map((exp) => (
+        <div>
+          <h2>
+            {exp.title} | {exp.place} | {exp.timelineStart} - {exp.timelineEnd}
+          </h2>
+          <p>{exp.description}</p>
+        </div>
+      ))
+  }
+</div>

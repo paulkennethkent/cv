@@ -1,0 +1,36 @@
+---
+const socials: {
+  iconPath: string;
+  href: string;
+  name: string;
+  styles?: any;
+}[] = [
+  {
+    href: "https://www.linkedin.com/in/paul-kent-b8875545",
+    name: "linkedIn",
+    iconPath: "li.png",
+  },
+  {
+    href: "https://github.com/paulkennethkent",
+    name: "github",
+    iconPath: "gh.svg",
+  },
+];
+---
+
+<div class="flex flex-wrap justify-center items-center">
+  {
+    socials.map((social) => (
+      <div class="px-4">
+        <a href={social.href}>
+          <img
+            width="24"
+            height="24"
+            src={social.iconPath}
+            style={{ fill: "red" }}
+          />
+        </a>
+      </div>
+    ))
+  }
+</div>
