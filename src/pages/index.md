@@ -8,4 +8,5 @@ pdfLink: resume.pdf
 
 Bicester, United Kingdom | pkennethkent@gmail.com
 
-I've worked in multiple technical roles gaining a wealth of experience. My passion is software development where I've contributed value across the stack. I believe I am natural leader who is able to step into leadership roles when required.
+
+From a young age I've always wanted to work in technology so I am very grateful to have a career that I really enjoy and where learning new skills is mandatory. I aim to work for companies that have a strong and positive mission with exciting projects and inspiring people.

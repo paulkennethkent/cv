@@ -1,4 +1,4 @@
-<div class="absolute left-4 top-4">
+<div class="absolute left-4 top-4" id="toggleIt">
   <label class="relative inline-flex items-center cursor-pointer theme-switch">
     <input type="checkbox" value="" class="sr-only peer" id="checkbox" />
     <div
@@ -29,6 +29,8 @@
     } else {
       text.innerHTML = "🌞";
     }
+  } else {
+    element && element.setAttribute("class", "light");
   }
 
   // Function that will switch the theme based on the if the theme toggle is checked or not

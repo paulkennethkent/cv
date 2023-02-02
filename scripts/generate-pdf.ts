@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { chromium } from "playwright";
 
 (async () => {
@@ -6,13 +7,15 @@ import { chromium } from "playwright";
 
   await page.goto("http://127.0.0.1:3000/", { waitUntil: "networkidle" });
 
-  const downloadButton = page.locator("a[download]");
+  const downloadButton = page.locator("#download");
+  const toggle = page.locator("#toggleIt");
   await downloadButton.evaluate((node) => (node.innerHTML = ""));
+  await toggle.evaluate((node) => (node.innerHTML = ""));
 
   await page.pdf({
     path: "public/resume.pdf",
     margin: {
-      top: "50px",
+      top: "20px",
       bottom: "80px",
     },
     printBackground: true,

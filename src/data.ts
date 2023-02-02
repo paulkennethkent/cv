@@ -41,7 +41,7 @@ const data: {
     title: "Software Engineer",
     type: TimelineEvent.JOB,
     timelineStart: new Date(2017, 10),
-    timelineEnd: new Date(2018, 10),
+    timelineEnd: new Date(2017, 12),
     skills: [
       "Java",
       "HTML",
@@ -55,12 +55,12 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "Built and maintained internal product dashboard systems that analysed the results of our AI driven test generation software. ",
+      "At the early stages of my engineering career I worked for a well funded startup to build and maintain their internal product dashboard systems. This analysis was key in shaping the AI test driven software. ",
   },
   {
     title: "Development Team Lead",
     type: TimelineEvent.JOB,
-    timelineStart: new Date(2018, 10),
+    timelineStart: new Date(2017, 12),
     timelineEnd: new Date(2020, 5),
     skills: [
       "Java",
@@ -76,7 +76,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "Expanding on my previous role I was tasked with leading a team of developers to build a pipleline that automatically analysed 1000s of open repositories. The aim was to gather feedback on the quality of the tests produced. ",
+      "Expanding on my previous role I was quickly given my own team tasked with building a pipleline that automatically built and analysed 1000s of open repositories.  This gave our core technology teams invaluable insights to the crediabilty and performance of the software. We extended the project to automatically contribute the tests that it generated to the open source repositories.",
   },
   {
     title: "Software Engineer",
@@ -87,7 +87,8 @@ const data: {
       "Typescript",
       "React",
       "GCP",
-      "GraphQL - Apollo",
+      "GraphQL",
+      "Apollo",
       "NextJS",
       "Auth",
       "HTML",
@@ -96,10 +97,11 @@ const data: {
       "e2e testing",
       "Prisma",
       "Next.js",
+      "SEO",
     ],
     place: "Venture Harbour",
     description:
-      "I joined an exciting team of engineers with aim to plan, build and maintain multiple ventures at a rapid pace. As the team was small, we worked on all area of the technical stack. ",
+      "I joined an ambitious team of engineers with aim to plan, build and maintain multiple ventures at a rapid pace. As the team was small, we worked on all areas of the technical stack. We produced a wide range of products from electron and slack apps to referal and saas based platforms. ",
   },
   {
     title: "Lead Engineer",
@@ -110,7 +112,8 @@ const data: {
       "Typescript",
       "React",
       "GCP",
-      "GraphQL - Apollo",
+      "GraphQL",
+      "Apollo",
       "NextJS",
       "Auth",
       "HTML",
@@ -120,10 +123,11 @@ const data: {
       "e2e testing",
       "Prisma",
       "Next.js",
+      "SEO",
     ],
     place: "Venture Harbour",
     description:
-      "I was promoted to a Lead Engineer to work on our most ambitious venture. I managed a team of engineers to plan and execute the delivery of a global saas marketing tool.  ",
+      "My willness to lead earned me a promotion to Lead Engineer to focus on their most ambitious venture called Truenorth.io which was a global saas marketing platform. I managed a team of engineers to plan and execute the delivery of new features and bugs based on requirements from the product team, whilst still contributing to codebase as my day to day.",
   },
   {
     title: "Oxford Brookes University",
