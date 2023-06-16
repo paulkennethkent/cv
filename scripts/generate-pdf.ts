@@ -13,7 +13,7 @@ import { chromium } from "playwright";
   await toggle.evaluate((node) => (node.innerHTML = ""));
 
   await page.pdf({
-    path: "public/resume.pdf",
+    path: "public/cv.pdf",
     margin: {
       top: "20px",
       bottom: "80px",

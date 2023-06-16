@@ -1,12 +1,11 @@
 ---
-title: Paul Kenneth Kent - Resume
+title: Paul Kenneth Kent - CV
 layout: ../layouts/Minimalist.astro
-pdfLink: resume.pdf
+pdfLink: cv.pdf
 ---
 
 # Paul Kenneth Kent
 
 Bicester, United Kingdom | pkennethkent@gmail.com
 
-
-From a young age I've always wanted to work in technology so I am very grateful to have a career that I really enjoy and where learning new skills is mandatory. I aim to work for companies that have a strong and positive mission with exciting projects and inspiring people.
+Having nurtured a lifelong interest in technology, I am fortunate to have built a fulfilling career in this domain. With a deep sense of gratitude, I actively pursue opportunities that allow me to work in an environment I truly enjoy and where continuous learning is valued. My objective is to join organizations that possess a strong and positive mission, offer stimulating projects, and foster a culture of inspiration.

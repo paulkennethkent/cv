@@ -55,7 +55,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "At the early stages of my engineering career I worked for a well funded startup to build and maintain their internal product dashboard systems. This analysis was key in shaping the AI test driven software. ",
+      "During the initial phase of my engineering career, I had the privilege of working with a well-funded startup, where my responsibilities revolved around developing and managing their internal product dashboard systems. This role played a pivotal role in shaping the AI-driven software through comprehensive analysis and test-driven methodologies.",
   },
   {
     title: "Development Team Lead",
@@ -76,7 +76,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "Expanding on my previous role I was quickly given my own team tasked with building a pipleline that automatically built and analysed 1000s of open repositories.  This gave our core technology teams invaluable insights to the crediabilty and performance of the software. We extended the project to automatically contribute the tests that it generated to the open source repositories.",
+      "Building upon my previous role, I swiftly progressed to lead a dedicated team responsible for developing a pipeline that automated the construction and analysis of thousands of open repositories. This initiative provided our core technology teams with invaluable insights into the credibility and performance of the software. Moreover, we extended the project to autonomously contribute the tests it generated to the corresponding open-source repositories.",
   },
   {
     title: "Software Engineer",
@@ -101,7 +101,7 @@ const data: {
     ],
     place: "Venture Harbour",
     description:
-      "I joined an ambitious team of engineers with aim to plan, build and maintain multiple ventures at a rapid pace. As the team was small, we worked on all areas of the technical stack. We produced a wide range of products from electron and slack apps to referal and saas based platforms. ",
+      "I joined an ambitious team of engineers with a shared goal of planning, constructing, and maintaining multiple ventures at a fast-pace. Given the team's small size, we engaged in all aspects of the technical stack, effectively contributing to a diverse range of products. Our projects spanned from creating Electron and Slack applications to developing referral and SaaS-based platforms.",
   },
   {
     title: "Lead Engineer",
@@ -127,7 +127,7 @@ const data: {
     ],
     place: "Venture Harbour",
     description:
-      "My willness to lead earned me a promotion to Lead Engineer to focus on their most ambitious venture called Truenorth.io which was a global saas marketing platform. I managed a team of engineers to plan and execute the delivery of new features and bugs based on requirements from the product team, whilst still contributing to codebase as my day to day.",
+      "Demonstrating my strong leadership capabilities and drive, I earned a promotion to the role of Lead Engineer within the organization. This promotion coincided with our most ambitious venture, Truenorth.io, a global SaaS marketing platform. As Lead Engineer, I successfully managed a team of engineers, overseeing the planning and execution of new feature development and bug fixes in alignment with the product team's requirements. While leading the team, I also actively contributed to the codebase, remaining engaged in day-to-day development tasks.",
   },
   {
     title: "Oxford Brookes University",
