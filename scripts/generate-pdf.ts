@@ -5,7 +5,9 @@ import { chromium } from "playwright";
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  await page.goto("http://127.0.0.1:3000/", { waitUntil: "networkidle" });
+  await page.goto("https://paulcv-git-main-pkennethkent.vercel.app/", {
+    waitUntil: "networkidle",
+  });
 
   const downloadButton = page.locator("#download");
   const toggle = page.locator("#toggleIt");
