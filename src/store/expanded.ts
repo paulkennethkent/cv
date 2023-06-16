@@ -1,3 +1,3 @@
-import { useStore } from "@nanostores/react";
+// import { atom } from "nanostores";
 
-export const isEverything = atom(false);
+// export const isEverything = atom(false);

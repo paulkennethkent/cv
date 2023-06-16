@@ -15,10 +15,10 @@ import { chromium } from "playwright";
   await page.pdf({
     path: "public/cv.pdf",
     margin: {
-      top: "20px",
-      bottom: "80px",
+      top: "10px",
+      bottom: "20px",
     },
-    printBackground: true,
+    printBackground: false,
   });
 
   await browser.close();
