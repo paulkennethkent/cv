@@ -55,7 +55,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "During the initial phase of my engineering career, I had the privilege of working with a well-funded startup, where my responsibilities revolved around developing and managing their internal product dashboard systems. This role played a pivotal role in shaping the AI-driven software through comprehensive analysis and test-driven methodologies.",
+      "During the initial phase of my engineering career, I was working with a well-funded startup, where my responsibilities revolved around developing and managing their internal product dashboard systems. This role played a pivotal role in shaping the AI-driven software through comprehensive analysis and test-driven methodologies.",
   },
   {
     title: "Development Team Lead",
@@ -76,7 +76,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "Building upon my previous role, I swiftly progressed to lead a dedicated team responsible for developing a pipeline that automated the construction and analysis of thousands of open repositories. This initiative provided our core technology teams with invaluable insights into the credibility and performance of the software. Moreover, we extended the project to autonomously contribute the tests it generated to the corresponding open-source repositories.",
+      "Building upon my previous role, I swiftly progressed to lead a dedicated team responsible for developing a pipeline that automated the analysis of thousands of open repositories. This initiative provided our core technology teams with invaluable insights into the credibility and performance of the software. Moreover, we extended the project to autonomously contribute the tests it generated to the corresponding open-source repositories.",
   },
   {
     title: "Software Engineer",
@@ -98,10 +98,12 @@ const data: {
       "Prisma",
       "Next.js",
       "SEO",
+      "Wordpress",
+      "Electron",
     ],
     place: "Venture Harbour",
     description:
-      "I joined an ambitious team of engineers with a shared goal of planning, constructing, and maintaining multiple ventures at a fast-pace. Given the team's small size, we engaged in all aspects of the technical stack, effectively contributing to a diverse range of products. Our projects spanned from creating Electron and Slack applications to developing referral and SaaS-based platforms.",
+      "I joined an ambitious team of engineers with a shared goal of planning, building, and maintaining multiple ventures at a fast-pace. Given the team's small size, we engaged in all aspects of the technical stack, effectively contributing to a diverse range of products. Our projects spanned from creating Electron and Slack applications to developing referral and SaaS-based platforms.",
   },
   {
     title: "Lead Engineer",
@@ -124,6 +126,8 @@ const data: {
       "Prisma",
       "Next.js",
       "SEO",
+      "Astro",
+      "Wordpress",
     ],
     place: "Venture Harbour",
     description:
