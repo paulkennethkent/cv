@@ -18,16 +18,16 @@ const socials: {
 ];
 ---
 
+<style></style>
+
 <div class="flex flex-wrap justify-center items-center">
   {
     socials.map((social) => (
-      <div class="px-4">
+      <div class="p-4">
         <a href={social.href}>
-          <img
-            width="24"
-            height="24"
-            src={social.iconPath}
-            style={{ fill: "red" }}
+          <div
+            class="icon w-8 h-8 dark:bg-white bg-black"
+            style={`-webkit-mask: url(/${social.iconPath}) no-repeat center / contain; `}
           />
         </a>
       </div>
