@@ -7,17 +7,30 @@ export default function Experience() {
         <h3>Relevant Experience</h3>
         {data
           .filter((t) => t.type === TimelineEvent.JOB && !t.notRelevant)
-          .map((job) => ({
-            ...job,
-            timelineStart: job.timelineStart.toLocaleDateString(undefined, {
+          .map((job) => {
+            const today = new Date().toLocaleDateString(undefined, {
               month: "long",
               year: "numeric",
-            }),
-            timelineEnd: job.timelineEnd.toLocaleDateString(undefined, {
-              month: "long",
-              year: "numeric",
-            }),
-          }))
+            });
+
+            return {
+              ...job,
+              timelineStart: job.timelineStart.toLocaleDateString(undefined, {
+                month: "long",
+                year: "numeric",
+              }),
+              timelineEnd:
+                job.timelineEnd.toLocaleDateString(undefined, {
+                  month: "long",
+                  year: "numeric",
+                }) === today
+                  ? "Present"
+                  : job.timelineEnd.toLocaleDateString(undefined, {
+                      month: "long",
+                      year: "numeric",
+                    }),
+            };
+          })
           .map((exp) => (
             <div>
               <h2>
