@@ -55,7 +55,7 @@ const data: {
     ],
     place: "Diffblue",
     description:
-      "During the initial phase of my engineering career, I was working with a well-funded startup, where my responsibilities revolved around developing and managing their internal product dashboard systems. This role played a pivotal role in shaping the AI-driven software through comprehensive analysis and test-driven methodologies.",
+      "During the initial phase of my engineering career, I played a crucial role in developing and managing their internal product dashboard systems. I not only shaped the AI-driven software through comprehensive analysis but also actively contributed to the sales and support of the product. My efforts were instrumental in helping the team land their first major client. This experience expanded my technical expertise while honing my customer engagement skills, fueling my passion for delivering exceptional solutions.",
   },
   {
     title: "Development Team Lead",
