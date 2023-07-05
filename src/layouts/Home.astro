@@ -1,7 +1,6 @@
 ---
 import "@fontsource/poppins";
 import "../styles.css";
-import ThemeToggle from "../components/ThemeToggle.astro";
 
 export interface Props {
   title: string;
@@ -9,7 +8,7 @@ export interface Props {
   noIndex?: boolean;
 }
 
-const { title, pdfLink, noIndex } = Astro.props.frontmatter as Props;
+const { title, pdfLink, noIndex } = Astro.props as Props;
 ---
 
 <!DOCTYPE html>
