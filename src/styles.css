@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ::selection {
@@ -20,4 +20,10 @@ article.minimalist {
     prose-thead:border-0  
     prose-th:font-medium prose-th:p-0
     prose-td:text-slate-500 prose-td:p-0;
+}
+
+@media print {
+  #experience {
+    break-inside: avoid;
+  }
 }

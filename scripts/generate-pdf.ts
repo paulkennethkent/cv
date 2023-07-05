@@ -15,7 +15,7 @@ import { chromium } from "playwright";
   await page.pdf({
     path: "public/cv.pdf",
     margin: {
-      top: "10px",
+      top: "30px",
       bottom: "20px",
     },
     printBackground: false,

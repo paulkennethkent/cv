@@ -32,7 +32,7 @@ export default function Experience() {
             };
           })
           .map((exp) => (
-            <div>
+            <div id="experience">
               <h2>
                 {exp.title} | {exp.place} | {exp.timelineStart} -{" "}
                 {exp.timelineEnd}
