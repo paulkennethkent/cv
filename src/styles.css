@@ -26,4 +26,10 @@ article.minimalist {
   #experience {
     break-inside: avoid;
   }
+  #download {
+    visibility: visible;
+  }
+  #toggleIt {
+    visibility: hidden;
+  }
 }

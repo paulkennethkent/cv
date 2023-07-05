@@ -7,13 +7,7 @@ import Social from "../components/Social.astro";
 import "../styles.css";
 import ThemeToggle from "../components/ThemeToggle.astro";
 
-export interface Props {
-  title: string;
-  pdfLink?: string;
-  noIndex?: boolean;
-}
-
-const { title, pdfLink, noIndex } = Astro.props as Props;
+const { title, pdfLink, noIndex } = Astro.props.frontmatter;
 ---
 
 <!DOCTYPE html>

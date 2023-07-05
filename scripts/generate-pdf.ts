@@ -7,11 +7,6 @@ import { chromium } from "playwright";
 
   await page.goto("http://127.0.0.1:3000/", { waitUntil: "networkidle" });
 
-  const downloadButton = page.locator("#download");
-  const toggle = page.locator("#toggleIt");
-  await downloadButton.evaluate((node) => (node.innerHTML = ""));
-  await toggle.evaluate((node) => (node.innerHTML = ""));
-
   await page.pdf({
     path: "public/cv.pdf",
     margin: {
